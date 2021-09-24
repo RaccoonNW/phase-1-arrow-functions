@@ -1,7 +1,7 @@
-const divide = (x, y) => {
+const divide = (x = 2000, y = 100) => {
     return x / y;
 }
-divide(2000, 100);
+divide(100, 50);
 
 const square = x => x * x;
 
